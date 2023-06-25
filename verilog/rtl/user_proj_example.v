@@ -59,7 +59,10 @@ module user_proj_example #(
     input  [127:0] la_data_in,
     output [127:0] la_data_out,
     input  [127:0] la_oenb,
-
+   // Add Logic Analyzer Signals
+    input  [127:0] la2_data_in,
+    output [127:0] la2_data_out,
+    input  [127:0] la2_oenb,
     // IOs
     input  [15:0] io_in,
     output [15:0] io_out,
